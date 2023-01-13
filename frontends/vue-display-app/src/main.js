@@ -46,6 +46,8 @@ const app = createApp(App).use(  VuesticPlugin,{
 }).use(VueTelInput)
 app.config.globalProperties.emitter = emitter
 
+console.log(localStorage, '[][][][][]')
+
 /* ===================================================
                       CONFIGURATION
     You must add your own values here! See the tutorial
